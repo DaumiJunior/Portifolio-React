@@ -1,0 +1,25 @@
+.about {
+    margin: 20px;
+}
+
+.about-me {
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    height: 600px;
+}
+
+.image-me {
+    flex: 1;
+}
+
+.img1 {
+    width: 550px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.text-me {
+    flex: 2;
+}

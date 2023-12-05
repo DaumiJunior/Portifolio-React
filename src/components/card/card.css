@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: 40px;
+    padding: 20px;
+    width: 400px;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.178) 10px 10px 10px 10px;
+    transition: transform 0.2s, box-shadow 0.4s,filter 0.3s ease-in-out;
+    filter: blur(5px);
+}
+.card:hover{
+    filter: none;
+    box-shadow: rgba(0, 0, 0, 0.797) 10px 10px 10px 10px;
+    transform: scale(1.1);
+}
+.text-card{
+    text-align: center;
+    flex: 1;
+}
+.img-card{
+    flex: 1;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+}
